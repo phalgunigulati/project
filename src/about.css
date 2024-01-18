@@ -1,0 +1,17 @@
+body{
+    /* background-image: url('C:\Users\phalg\OneDrive\Desktop\minor_project\minor\public\backdrop.jpg');
+    background-position: center;
+    background-blend-mode:color-burn; */
+    background-color: black;
+    color: #fff;
+}
+video::-webkit-media-controls {
+    display: none;
+  }
+video{
+    min-width: 100%;
+    height: 400px;
+    object-fit: fill;
+    /* height: 600px; */
+
+}

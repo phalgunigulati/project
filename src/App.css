@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  flex-direction: column;
+  padding: 30px;
+  background: linear-gradient(to right, rgb(86, 104, 194), rgb(87, 51, 171), rgb(21, 18, 116));
+}
+
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+
+}
+
+.grid-child{
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.news-image{
+  width: 100%;
+}
+.news-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.news-content{
+  font-size: 16px;
+}
+.news-author{
+  font-size: 14px;
+  font-weight: 500;
+  /* font-style: italic; */
+}
+.news-date{
+  font-size: 14px;
+}
+.space-btw{
+  display: flex;
+  justify-content: space-between;
+}
+.select{
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 370px;
+
+}
+.select-box{
+  width: 200px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+.select-box{
+  width: 200px;
+  height: 20px;
+}
+}
