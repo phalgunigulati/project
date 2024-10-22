@@ -7,6 +7,8 @@ ReactJS: Frontend of this project is created using react js
 
 Alan AI: Amazing software that fetches news for the users 
 
+Auth0: Provides authentication to the application allowing users to login or signup
+
 CSS3: The application is styled and made responsive using css. 
 
 
