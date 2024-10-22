@@ -1,3 +1,15 @@
+Daily Insider is News web app where users can access latest news on various topics. 
+It includes Alan AI which allows users to go hands-free and fetches latest news for them. 
+
+Technology Stack: 
+
+ReactJS: Frontend of this project is created using react js 
+
+Alan AI: Amazing software that fetches news for the users 
+
+CSS3: The application is styled and made responsive using css. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
